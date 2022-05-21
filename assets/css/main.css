@@ -1,0 +1,363 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body{overflow: overlay;}
+
+header{
+    position: absolute;
+    max-width: 100%; 
+    width: 1440px;
+    height: 700px;
+    top: 288px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header_menu
+{
+    position: absolute;
+    max-width: 100%; 
+    width: 1440px;
+    height: 700px;
+    background: url(../img/header.png) no-repeat center;
+}
+
+.nav_menu
+{
+    position: absolute;
+    top: 21%;
+    left: 65%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    overflow-x:hidden;
+    list-style: none;
+}
+
+.nav_menu li
+{
+    display: inline;
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn
+{
+    width: 270px;
+    height: 50px;
+    background-color: #FF3F00;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    color: #56423C;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btn-header
+{
+    position: absolute;
+    top: 75%;
+    left: 21%;
+    transform: translate(-50%, -50%);  
+}
+
+
+
+.box-nav
+{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #FFF5ED;
+    width: 1200px;
+    height: 140px;
+    border-radius: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-nav > div > .control_txt-nav
+{
+    position: absolute;
+    left: 350px;
+}
+
+.control_txt-nav > li
+{
+    margin-left: 110px;
+}
+
+.control_txt
+{
+    margin-top: 50px;
+    margin-left: -320px;
+    width: 73%;
+}
+
+.control_txt > li
+{
+    font-weight: 400;
+}
+
+.btn_box-nav{
+    position: absolute;
+    right: 80px;
+    top: 40px;
+}
+
+.txt-slider
+{
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-weight: 700;
+    font-size: 48px;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contetn-slider
+{
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-slider
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-slider > img
+{
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.svg-slider
+{
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.recommended-content
+{
+    position: absolute;
+    top: 2150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 950px;
+    background-color: #3F3D56;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.txt_recommended
+{
+    position: absolute;
+    text-align: left;
+    top: 128px;
+    left: 275px;
+    color: #fff;
+}
+
+.txt_recommended h1
+{
+    font-weight: 700;
+    font-size: 36px;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt_recommended p
+{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wapper-recommended
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+}
+
+
+.item
+{
+    width: 386px;
+    height: 550px;
+    margin-left: 100px;
+    margin-top: 330px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.item > img
+{
+    width: 386px;
+    height: 314px;
+    border-radius: 30px;
+}
+
+.content_iso-top
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item > p
+{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content_iso-bottom
+{
+    margin-top: 30px;
+    margin-left: 225px;
+}
+
+.booking-img
+{
+    position: absolute;
+    left: 50%;
+    top: 3005px;
+    width: 100%;
+    height: 980px;
+    transform: translate(-50%,-50%);
+    background: url(../img/Rectangle14.png) no-repeat center;
+}
+
+.booking_content
+{
+    margin-top: 250px;
+    margin-left: 1200px;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking_content h1
+{
+    font-size: 64px;
+}
+
+.wapper-booking
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    left: 48%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.booking-item
+{
+    width: 440px;
+    height: 312px;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.booking-item h1
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    width: 357px;
+
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking-item p
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+    width: 340px;
+
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    height: 545px;
+    top: 3495px;
+    background: rgba(63, 61, 86, 0.95);
+}
+
+footer h1
+{
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%,-50%);
+
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt-fotter
+{
+    position: absolute;
+    top: 50%;
+    left: 1200px;
+    transform: translate(-50%,-50%);
+}
+
+.txt-fotter path
+{
+    cursor: pointer;
+}
